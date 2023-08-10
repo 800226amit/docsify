@@ -54,9 +54,40 @@
 ![image](image/commandinterphais.png)
 
 ## Step-8 
+> 
 
 ![image](image/gitinit.png)
 
 ## Step-9
+> In this step, you need to follow the command that is provided in the github repository.
+
+> Command: 
+>   git init
+
+>  git add README.md
+
+> git commit -m "first commit"
+
+> git branch -M main
+
+> git remote add origin https://github.com/800226amit/docsify.git
+
+> git push -u orgin main
+
+## update 
+
+
+
+
+When you change something in your document and update it, then run the following command:
+
+
+
+
+> git remote add origin https://github.com/800226amit/docsify.git
+
+> git branch -M main 
+
+> git push -u origin main
 
 ![image](image/pushrepo.png)
