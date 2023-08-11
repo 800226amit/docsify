@@ -124,14 +124,14 @@ git init
 git init
 ```
 
->  **The git add command is used to stage changes for commit in a Git repository. When you make changes to your files, such as editing or adding new content to README.md, you need to use git add to inform Git that you want to include these changes in the next commit.**
+>  ****The git add command is used to stage changes for commit in a Git repository. When you make changes to your files, such as editing or adding new content to README.md, you need to use git add to inform Git that you want to include these changes in the next commit.****
 
 
 ```
 git add README.md
 
 ```
-> **The command git commit -m "first commit" is used to create a new commit in your Git repository with a commit message describing the changes you've made**
+> **The command git commit -m "first commit" is used to create a new commit in your Git repository with a commit message describing the changes you've made.**
 
 ```
 git commit -m "first commit"
@@ -159,7 +159,7 @@ git push -u orgin main
 ```
 
 
-## update and Change
+## Update and Change
 
 
 
