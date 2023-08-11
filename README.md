@@ -11,17 +11,17 @@
 
 ## Install Node.js and npm:
 
-#### Why use node js 
-> installing Node.js and npm is essential for providing the necessary runtime environment, dependency management, and command-line tools required to work effectively with Docsify and other modern web development tools.
+#### Why use Node.js?
+> Installing Node.js and npm is essential for providing the necessary runtime environment, dependency management, and command-line tools required to work effectively with Docsify and other modern web development tools.
 
 ```
 sudo apt update
 sudo apt install nodejs npm
 ```
 
-## Step-1: Install docsify globally
+## Step 1: Install Docsify globally.
 
-> Install docsify globally on the system using npm.  a package manager for Node.js packages, or modules if you like.
+> Install Docsify globally on the system using npm. a package manager for Node.js packages, or modules if you like.
 >
 
 
@@ -33,7 +33,7 @@ sudo npm install -g docsify-cli
 > ![image](./image/step-1.1.png)
 >
 
-## Step-2: Create a Documentation directory
+## Step 2: Create a documentation directory.
 
 
 
@@ -48,13 +48,16 @@ cd mydocs
 
 
 
-## Step-3: Initialise docsify  
-> Initialise docsify in the directory using the following command: docsify init ./docs
+## Step 3: Initialise Docsify
+> Initialise docsify in the directory using the following command:
+```
+ docsify init ./docs
+```
 ![image](./image/step-3.png)
 
 
-## Step-4: preview the documentation
-> To preview your documentation, run the following command inside your main documentation directory
+## Step 4: Preview the documentation
+> To preview your documentation, run the following command inside your main documentation directory:
 
 >This given URL you need to copy and run in your browser and click Enter.
 
@@ -68,9 +71,9 @@ docsify serve docs
 
 
 
-## Output of Preview
+## Output of the Preview
 
-#### Pest your url in your browser
+#### Pest your URL in your browser.
 
 ![image](./image/browserurl.png)
 
@@ -80,7 +83,7 @@ docsify serve docs
 
 ## Step-5
 
-> For Makeing repository click on top "New repository".
+>For making a repository, click on "New repository".
 
 ![image](./image/newrepocc.png)
 
@@ -92,7 +95,7 @@ docsify serve docs
 
 ## Step-7 
 
-> Here provide some command you copy and pest one by one
+> Here are some commands to copy and paste one by one.
 
 ![image](image/commandinterphais.png)
 
@@ -104,7 +107,7 @@ command:
 git init
 
 ```
->   The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+>   The git init command creates a new git repository. It can be used to convert an existing, unversioned project to a Git repository or initialise a new, empty repository.
 
 ![image](image/gitinit.png)
 
@@ -114,7 +117,7 @@ git init
  **In this step, you need to follow the command that is provided by the github repository.**
 
 
- **The git init command is used to initialize a new Git repository in a directory. When you run git init in a directory, it sets up the necessary files and directories that Git uses to manage version control for your project.**
+ ****The git init command is used to initialize a new Git repository in a directory. When you run git init in a directory, it sets up the necessary files and directories that Git uses to manage version control for your project.****
 
 > 
 ```
