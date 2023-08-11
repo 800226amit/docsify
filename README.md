@@ -1,5 +1,18 @@
+Docsify is a popular lightweight documentation generator that can help you create beautiful and responsive documentation websites from markdown files. To use Docsify in Ubuntu, you'll need to follow these steps
+
+
+
+
 # Docsify
 
+##Install Node.js and npm:
+
+#### Why use node js 
+> installing Node.js and npm is essential for providing the necessary runtime environment, dependency management, and command-line tools required to work effectively with Docsify and other modern web development tools.
+
+```sudo apt update
+sudo apt install nodejs npm
+```
 
 ## Step-1: Install docsify globally
 
