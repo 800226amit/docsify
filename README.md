@@ -6,7 +6,11 @@
 > Install docsify globally on the system using npm.  a package manager for Node.js packages, or modules if you like.
 >
 
-#### Command : sudo npm install -g docsify-cli
+
+
+```
+sudo npm install -g docsify-cli
+```
 
 > ![image](./image/step-1.1.png)
 >
@@ -14,8 +18,17 @@
 ## Step-2: Create a Documentation directory
 
 
-####  mdkir mydocs
-####  cd mydocs
+
+```
+mdkir mydocs
+```
+
+
+```
+cd mydocs
+```
+
+
 
 ## Step-3: Initialise docsify  
 > Initialise docsify in the directory using the following command: docsify init ./docs
@@ -25,11 +38,23 @@
 ## Step-4: preview the documentation
 > To preview your documentation, run the following command inside your main documentation directory
 
-![image](./imgage/../image/step-4.png)
+>This given URL you need to copy and run in your browser and click Enter.
+
+```
+docsify serve docs
+```
+
+
+
+![image](./imgage/../image/localhosturl.png)
+
+
 
 ## Output of Preview
 
-![image](./image/mdoutput.png)
+#### Pest your url in your browser
+
+![image](./image/browserurl.png)
 
 
 # gitHub
@@ -39,40 +64,79 @@
 
 > For Makeing repository click on top "New repository".
 
-![image](./image/newrepo.png)
+![image](./image/newrepocc.png)
 
 ## Step-6 
 
 > Enter your repository name and give permission to the public.
 
-![image](./image/reponame.png)
+![image](./image/newreponame.png)
 
 ## Step-7 
 
-> 
+> Here provide some command you copy and pest one by one
 
 ![image](image/commandinterphais.png)
 
 ## Step-8 
-> 
+
+command:
+
+```
+git init
+
+```
+>   The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
 
 ![image](image/gitinit.png)
 
 ## Step-9
-> In this step, you need to follow the command that is provided in the github repository.
 
-> Command: 
->   git init
 
->  git add README.md
+ **In this step, you need to follow the command that is provided by the github repository.**
 
-> git commit -m "first commit"
 
-> git branch -M main
+ **The git init command is used to initialize a new Git repository in a directory. When you run git init in a directory, it sets up the necessary files and directories that Git uses to manage version control for your project.**
 
-> git remote add origin https://github.com/800226amit/docsify.git
+> 
+```
+git init
+```
 
-> git push -u orgin main
+>  **The git add command is used to stage changes for commit in a Git repository. When you make changes to your files, such as editing or adding new content to README.md, you need to use git add to inform Git that you want to include these changes in the next commit.**
+
+
+```
+git add README.md
+
+```
+> **The command git commit -m "first commit" is used to create a new commit in your Git repository with a commit message describing the changes you've made**
+
+```
+git commit -m "first commit"
+
+```
+
+> **The git branch -M main command is used to rename the default branch of your Git repository. This command is commonly used to change the name of the default branch from master to main, which aligns with more inclusive terminology.**
+
+```
+git branch -M main
+
+```
+>> **The git remote add origin command is used to connect your local Git repository with a remote repository on a platform like GitHub. The origin in this command is typically a short name used to refer to the remote repository.**
+
+```
+git remote add origin https://github.com/800226amit/docsify.git
+
+```
+
+>> **The git push -u origin main command is used to push the local commits in your repository's main branch to the remote repository specified by the origin remote. The -u flag is used to set up tracking between the local main branch and the remote main branch, making it easier to push and pull changes in the future.**
+
+```
+git push -u orgin main
+
+```
+
 
 ## update 
 
@@ -83,11 +147,22 @@ When you change something in your document and update it, then run the following
 
 
 
+```
+git remote add origin https://github.com/800226amit/docsify.git
 
-> git remote add origin https://github.com/800226amit/docsify.git
+```
 
-> git branch -M main 
 
-> git push -u origin main
+```
+git branch -M main 
 
-![image](image/pushrepo.png)
+```
+
+
+```
+git push -u orgin main
+
+```
+
+
+# The End     Thank you
